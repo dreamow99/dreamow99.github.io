@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First fucking blog test
+tag: test
 ---
 
 alo alo địt mợ
