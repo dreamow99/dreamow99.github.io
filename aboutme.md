@@ -12,4 +12,4 @@ Vậy thui
 
 ### wait... there's more
 
-Nahhhh there's nothing more :(
+Nahhhh there's nothing more :( Anyway welcome ^^
