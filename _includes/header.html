@@ -1,22 +1,25 @@
-<header class="site-header">
-<div class="wrapper">
-<nav class="site-nav">         
-        <span class="menu-bar" onclick="openNav()">
-            <svg id="i-menu" viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="#eee" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%"><path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24" /></svg>
-        </span>
-</nav> 
-
-<div class="profile">
-<a href="{{site.baseurl}}/">
-<img class="author-image" alt="site-title" src="{{site.baseurl}}/images/{{site.author.image}}">
-</a>
-<h1 class="author-about">{{site.author.name}}</h1>
-</div>
-<div class="menu-category">
-<div class="menu-item"><a class="{% if page.url == '/design/' %}active{% endif %} menu-link" href="{{site.baseurl}}/design/">Design</a></div>
-<div class="menu-item"><a class="{% if page.url == '/code/' %}active{% endif %}  menu-link" href="{{site.baseurl}}/code/">Code</a></div>
-<div class="menu-item"><a class="{% if page.url == '/life/' %}active{% endif %}  menu-link" href="{{site.baseurl}}/life/">Life</a></div>
-</div>
-</div>
+<header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <div class="container">
+    <div class="header__inner">
+      <a class="header__logo" href="{{ '/' | relative_url }}">
+        <div class="header__logo--container">
+          {% include logo.svg %}
+        </div>
+      </a>
+      <nav class="header__links">
+        <div class="container header__links-wrapper">
+          <a class="header__link" href="{{ '/' | relative_url }}" itemprop="url"><span itemprop="name">Home</span></a>
+          <a class="header__link" href="{{ '/about' | relative_url }}" itemprop="url"><span itemprop="name">About</span></a>
+          <a class="header__link" href="{{ '/contact' | relative_url }}" itemprop="url">
+            <span itemprop="name">Contact</span>
+          </a>
+        </div>
+      </nav>
+      <div class="header__toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
 </header>
-

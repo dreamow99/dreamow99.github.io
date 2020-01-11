@@ -1,49 +1,47 @@
 ---
 layout: compress
 ---
+<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
 
-<!DOCTYPE html>
-<html>
-{% include head.html %}
+  {% include head.html %}
 
-<body>
-   <div class="container">
-       
-    {% include sidebar.html %}
+  <body class="site">
 
-    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->   
-        <div id="main">
+    {% if site.google_tag_manager %}
 
-             {% include header.html %}
-                    <div class="page-content">
-                        <div class="wrapper">
-                            {{ content }}
-                        </div>
-                    {% include footer.html %}
-                    </div>
-                {% if site.analytics %}
-                    {% include analytics.html %}
-                {% endif %}  
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+    {% endif %}
+
+    {% include header.html %}
+
+    <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/sleek_lg.jpg">
+      <div class="hero__wrap">
+        <h1 class="hero__title">Sleek</h1>
+        <p class="hero__meta">Modern Jekyll theme focused on speed performance & SEO best practices</p>
+      </div>
+    </div>
+
+    <main class="site__content">
+      <section class="blog">
+        <div class="container">
+          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+            {% for post in site.posts %}
+              {% include card.html %}
+            {% endfor %}
+
+            <!-- {% include pagination.html %} -->
+          </div>
         </div>
-        
-        
-        
-        
-        
-<script>
-    /* Set the width of the side navigation to 250px */
-    function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    }
+      </section>
+    </main>
 
-    /* Set the width of the side navigation to 0 */
-    function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    }
-</script>
-        
-        
-</div>            
-        
-</body>
+    {% include footer.html %}
+
+  </body>
+
 </html>
