@@ -1,24 +1,25 @@
 ---
 layout: default
 ---
+<article itemscope itemtype="http://schema.org/BlogPosting">
 
-<!-- Blog Post Breadcrumbs -->
-{%- include blog_post_breadcrumb.html -%}
+  <!-- <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+        {{ page.date | date: date_format }}
+      </time>
+      {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      {% endif %}</p>
+  </header> -->
 
-<div class="row">
+  <div itemprop="articleBody">
+    {{ content }}
+  </div>
 
-        <div class="col-lg-8">
-    
-           {%- include blog_post_article.html -%}
-
-           {%- include blog_post_comments.html -%}
-        </div>
- 
-           {%- include blog_sidebar.html -%}
-
-
-        
-</div> <!-- End of row-->
-    
-
-    
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
+</article>

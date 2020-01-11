@@ -1,158 +1,30 @@
-title: Duy Pham
-subtitle: Simply a dude
-description: >- # this means to ignore newlines until "baseurl:"
+title: Cayman Blog Theme
+description: Cayman Blog Theme is a clean, responsive blogging theme for Jekyll and Gitlab/GitHub Pages.
+show_downloads: true
 
-url: "https://dreamow99.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/cayman-blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "https://lorepirri.github.io" # change this to the base hostname & protocol for your site
 
-urls:
-    - text: Blog
-      url: /blog
-    - text: Shop
-      url : /shop
-    - text: About Me
-      url: /about
-    - text: Contact Me
-      url : /contact
-    - text: Styleguide
-      url: /styleguide
-    
 
-# Edit these details 
+google_analytics:
 
-author_logo: profile.png
-author: Duy Pham
-author_bio: Chào, mình là Duy, đây là blog cá nhân của mình nên mình sẽ viết những thứ xàm xí lên đây ;)  
-author_email: "dreamow9@gmail.com"
-author_location: Vietnam
+# cayman-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+cayman-blog:
+  date_format: "%b %-d, %Y"
 
-#author_work_experiences: 
-#            - company_name: Google
-#              company_logo: google.png
-#              company_url: https://google.com
-#              designation: Software Engineer
-#              description: Worked on various Google Products
-#              visibility: true
-#            - company_name: Microsoft
-#              company_logo: microsoft.png
-#              company_url: https://microsoft.com
-#              designation: Azure Developer
-#              description: Worked on various Azure Cloud Products
-#              visibility: true
+theme: # leave it empty
 
-#author_education_details:
-#              - college_logo: mit.png
-#                college_name: UET
-#                college_url: https://mit.org
-#                college_degree: CS Engineer
-#                description: Bachelor of Technology
-#                visibility: true
+# social
+author: lorepirri
+image: /thumbnail-jumbo.png
+twitter:
+  username: lorepirri
 
-#author_project_details:
-#              - project_thumbnail: gamershub.png
-#                project_title: Gamers Hub
-#                project_description: A Platform built for Gamers and Game Devs
-#                project_url: https://gamershub.in
-#                visibility: true
-#              - project_thumbnail: programmingebooks.png
-#                project_title: Programming Ebooks
-#                project_description: A Platform to easily find and read programming books
-#                project_url: https://programmingebooks.com
-#                visibility: true
-
-# social links
-#twitter_username: johndoe
-github_username:  dreamow99
-facebook_username: dreamow99
-#linkedin_username: johndoe
-#behance_username: johndoe
-instagram_username: dreamowonderchild
-#medium_username: johndoe
-#telegram_username: johndoe
-#dribbble_username: johndoe
-#flickr_username: johndoe
-
-#for comments using disqus
-#disqus_shortname: sujay-kundu  
-
-# wakatime username (coding activity)
-#wakatime_username: sujaykundu777
-
-# formspree (contact form)
-formspree_email: dreamow9@gmail.com
-
-# syntax highlighter
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-
-# google analytics
-google_analytics: UA-46783401-10 
-
-# Choose what to show ( can be true or false)
-show_author_work_experiences: false
-show_author_education_details: false
-show_author_project_details: false
-
-# dont touch this unless required
 plugins:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-algolia
-# - jekyll-archives
+  - jekyll-target-blank
 
-# algolia search 
-algolia:
-  application_id: D9WA1YKTRQ
-  index_name: blog_posts # You can replace that with whatever name you want
-  files_to_exclude: []
-  nodes_to_index: 'article'
-  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
+target-blank:
+    rel: nofollow
 
-# pagination of posts
-paginate: 8
-per_page: 4
-paginate_path: "/blog/page/:num/"
-
-# minify 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']
-
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
-
-
-collections:
- - products
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+header_page_refs: ['now', 'about', 'contact']
