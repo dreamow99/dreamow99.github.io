@@ -1,11 +1,16 @@
-<footer id="footer" class="site-footer">
-  <div class="inner">
-    <div class="copyright">
-      {% if site.copyright %}
-        {{ site.copyright | markdownify }}
-      {% else %}
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}.</p>
-      {% endif %}
-    </div>
-  </div>
+<footer class="site-footer">
+<div class="wrapper">
+<div class="footer-col-wrapper">
+<div class="footer-col footer-col-1">
+</div>
+<div style="text-align:center" class="footer-col footer-col-2">
+<p><strong>Copyrights 20{{site.time | date: '%y'}} <a href="{{site.url}}">{{site.title}}</a>.</strong> All Rights Reserved.</p>
+<p><a target="_blank" href="{{site.full-url}}">Full Version</a></p>
+</div>
+<div class="footer-col footer-col-3">
+</div>
+</div>
+</div>
 </footer>
+
+
