@@ -1,10 +1,15 @@
 ---
 layout: default
-css: ["page.css"]
 ---
-<div id="page-info">
-  <h3>{{page.title}}</h3>
-</div>
-<div class="row">
-  {{ content }}
-</div>
+
+{% include page-intro.html %}
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }}
+      </div>
+    </article>
+  </div>
+</main>
