@@ -1,16 +1,15 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Một chút giới thiệu cái nhể
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Mình là Duy, sinh viên năm ba, theo đuổi ngành CNTT với một ước mơ to lớn là trở nên thật ngầu mỗi khi viết code. Ở blog này mình sẽ:
+- Chia sẻ những kiến thức về lập trình mà mình biết (vì nói thật mình cũng chẳng hơn ai, biết cái gì thì chia sẻ cái ấy thui :v)
+- Văn vở xàm xí (vì thỉnh thoảng mình khá thích viết linh tinh)
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Vậy thui
 
-What else do you need?
+### wait... there's more
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Nahhhh there's nothing more :(
