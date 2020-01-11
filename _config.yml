@@ -21,10 +21,10 @@ description: A very personal blog
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Can I write any shit herer? : "hentaivn"
+  Posts:
+    - Cảm thụ văn học: "tags/#test"
+    - C++ căn bản: "tags/#books"
+    - Cấu trúc dữ liệu và giải thuật: "tags/#shakespeare" 
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
