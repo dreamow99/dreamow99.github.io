@@ -4,11 +4,7 @@ title: About me
 subtitle: Một chút giới thiệu cái nhể
 ---
 
-Mình là Duy, sinh viên năm ba, theo đuổi ngành CNTT với một ước mơ to lớn là trở nên thật ngầu mỗi khi viết code. Ở blog này mình sẽ:
-- Chia sẻ những kiến thức về lập trình mà mình biết (vì nói thật mình cũng chẳng hơn ai, biết cái gì thì chia sẻ cái ấy thui :v)
-- Văn vở xàm xí (vì thỉnh thoảng mình khá thích viết linh tinh)
-
-Vậy thui
+Chuyên trang blog về giới trẻ, về những dân chơi 9x cực kì dẹp trai xinh gái. Blog hàng đầu số 1 về ăn chơi giải trí và sống chất. 
 
 ### wait... there's more
 
