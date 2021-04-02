@@ -15,7 +15,7 @@ Sở hữu cho mình một khuôn mặt khả ái cùng với bộ đồng hồ 
 
 ## Ai cũng nghĩ Hà ăn chơi nhưng không phải vậy
 
-Có lẽ ai là dân chơi Hưng Yên cũng sẽ biết mặt anh, mặc nổi tiếng với vẻ ngoài điển trai và gu ăn mặc chất chơi người dơi của mình, Lê Kim Hà hiện nay đang thành công với một cuộc sống giản dị với công việc giáo viên dạy IELTS ưa thích.
+Có lẽ ai là dân chơi Hưng Yên cũng sẽ biết mặt anh, mặc dù nổi tiếng với vẻ ngoài điển trai và gu ăn mặc chất chơi người dơi của mình, Lê Kim Hà hiện nay đang thành công với một cuộc sống giản dị với công việc giáo viên dạy IELTS ưa thích.
 
 >"Thực ra mình đến với cái nghề này cũng là cái duyên, chứ mình vẫn yêu nhất là đồng hồ." 
 
